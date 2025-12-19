@@ -16,7 +16,7 @@ for (let i = 0; i < teachers.length; i++) {
 console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
-
+//Poter usare index.Of per trovare Ed in modo che lo trovi a prescindere dalla grandezza dell'array e senza conoscere la sua posizione
 teachers.splice(5, 1);
 console.log(teachers);
 
